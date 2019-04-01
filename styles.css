@@ -11,25 +11,30 @@ nav {
     opacity: .90;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .logo-wrapper img {
     max-width: 50px;
 }
 .search-wrapper {
     display: flex;
+    box-shadow: 2px 3px 10px grey;
+    max-height: 25px;
+    align-items: center;
+    background-color: white;
 }
 .search-wrapper img {
     max-width: 30px;
     background-color: white;
 }
 .search-wrapper input {
-    height: 25px;
+    height: 30px;
+    width: 300px;
     border-style: none;
 }
 nav ul {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 nav li {
     text-decoration: none;
@@ -44,4 +49,13 @@ nav li a {
 .profile-photo img {
     border-radius: 50%;
     max-width: 50px;
+}
+.logo-search {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.list-profile {
+    display: flex;
+    justify-content: flex-end;
 }
